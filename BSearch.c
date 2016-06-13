@@ -1,10 +1,4 @@
-//
-//  main.c
-//  data_16
-//
-//  Created by 尹灏森 on 16/4/27.
-//  Copyright © 2016年 尹灏森. All rights reserved.
-//
+
 
 #include <stdio.h>
 #include <string.h>
