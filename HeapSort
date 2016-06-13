@@ -1,0 +1,64 @@
+void CreatHeap (ElemType a[], int n, int h)
+
+/* 调整非叶子节点a[h]以满足最大堆定义,n为数组元素个数,h为叶子节点下标 */
+{
+  int i, j, tag;
+  ElemType temp;      /* tag 用来标记调整结束条件 */
+  i=h;
+  j=2*i+1;
+  temp=a[i];
+  tag=0;
+  
+  while(j<n && tag!= 1)
+  {
+    if(j<n-1 && a[j].key<a[j+1].key)
+      j++;
+    
+    if(temp.key>a[j].key)
+      tag=1;
+    
+    else
+    {
+      a[i]=a[j];
+      i=j;
+      j=2*i+1;
+    }
+  
+  }
+  
+  a[i]=temp;
+  
+}
+
+
+void InitCreatHeap(ElemType a[], int n)
+
+/* 将数组 a 调整为最大堆 */
+
+{
+  int i;
+  for(i=(n-2)/2; i>=0 ; i--)
+    CreatHeap(a,n,i);
+    
+}
+
+
+void HeapSort(ElemType a[],int n)
+{
+  int i;
+  ElemType temp;
+  InitCreatHeap(a, n);
+  for(i=n-1;i>0;i--)
+    {
+      temp=a[0];
+      a[0]=a[i];
+      a[i]=temp;
+      CreatHeap(a,i,0);
+      
+    }
+    
+}
+
+
+    
+    
