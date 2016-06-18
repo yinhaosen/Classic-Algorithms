@@ -23,7 +23,7 @@ int main()
     position=BSearch(list,input,low,high);
     printf("该数字在数组的第%d个\n",position+1);
     
-    
+    return 0;
     
     
     
