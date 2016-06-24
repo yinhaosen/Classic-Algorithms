@@ -15,3 +15,8 @@ A notebook of classic alogrithms (Language C) .
     
     Deapth-First Traversal
     
+(3)HeapSort.c
+
+    堆排序
+    
+    HeapSort
