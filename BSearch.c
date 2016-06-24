@@ -29,6 +29,7 @@ int main()
     
 }
 
+/* 利用递归的方法进行二分查找 */
 int BSearch(int list[],int input,int low,int high)
 {
     int mid;
