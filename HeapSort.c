@@ -53,7 +53,7 @@ void CreatHeap(ElemType a[],int n,int h)
   
   }
     
-  a[i[=temp;
+  a[i]=temp;
     
 }
 
