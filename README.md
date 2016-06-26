@@ -19,10 +19,16 @@ A notebook of classic alogrithms (Language C) .
 
     堆排序
     
-    HeapSort
+    Heap Sort
 
 (4)StraightInsert.c
 
     直接插入排序
     
     Straight Insertion Sort
+
+(5)ShellSort.c
+
+    希尔排序
+    
+    Shell Sort
