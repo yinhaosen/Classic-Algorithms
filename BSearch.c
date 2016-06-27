@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main()
+/* 测试主函数 */
 {
     int list[100],n,i;
     int input,low,high,position;
