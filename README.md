@@ -38,3 +38,9 @@ A notebook of classic alogrithms (Language C) .
     冒泡排序
     
     Bubble Sort
+    
+(7)QuickSort.c
+
+    快速排序
+    
+    Quick Sort
