@@ -67,6 +67,6 @@ int BSearch2(int list[],int input,int low,int high)
             
     }
     
-    return -1;      /* 查找失败 */
+    return -1;      //查找失败
 
 }
