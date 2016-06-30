@@ -1,5 +1,5 @@
 # Classic-Algorithms
-经典算法的总结笔记(C语言)
+经典算法的总结笔记 (C语言)
 
 A notebook of classic alogrithms (Language C) .
 
@@ -44,3 +44,9 @@ A notebook of classic alogrithms (Language C) .
     快速排序
     
     Quick Sort
+    
+(8)MergeSort.c
+
+    二路归并排序
+    
+    Merge Sort
