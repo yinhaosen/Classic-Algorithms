@@ -3,55 +3,55 @@
 
 A notebook of classic alogrithms (Language C) .
 
-(1)BSearch.c
+(1) BSearch.c
     
     二分查找（折半查找）
     
     Binary-Search
     
-(2)DepthFirstSeach.c
+(2) DepthFirstSeach.c
     
     图的深度优先遍历（连通图和非连通图）
     
     Deapth-First Traversal
     
-(3)HeapSort.c
+(3) HeapSort.c
 
     堆排序
     
     Heap Sort
 
-(4)StraightInsert.c
+(4) StraightInsert.c
 
     直接插入排序
     
     Straight Insertion Sort
 
-(5)ShellSort.c
+(5) ShellSort.c
 
     希尔排序
     
     Shell Sort
     
-(6)BubbleSort.c
+(6) BubbleSort.c
 
     冒泡排序
     
     Bubble Sort
     
-(7)QuickSort.c
+(7) QuickSort.c
 
     快速排序
     
     Quick Sort
     
-(8)MergeSort.c
+(8) MergeSort.c
 
     二路归并排序
     
     Merge Sort
     
-(9)RadixSort.c
+(9) RadixSort.c
 
     基数排序（链式队列）
     
